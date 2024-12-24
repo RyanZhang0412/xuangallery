@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xuan's Online Gallery">
+    <title>Xuan's Gallery</title>
+    <!-- Add external CSS here if needed -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #f9b1fc;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Xuan's Online Gallery</h1>
+        <p>Explore stunning art pieces</p>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <!-- Add gallery images below -->
+            <img src="Shimoe_Koharu.JPG" alt="Artwork 1">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Xuan's Gallery. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
